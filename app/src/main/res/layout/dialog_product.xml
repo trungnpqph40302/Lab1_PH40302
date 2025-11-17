@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sản phẩm"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên sản phẩm"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá sản phẩm (VNĐ)"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh mục"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text" />
+
+</LinearLayout>
